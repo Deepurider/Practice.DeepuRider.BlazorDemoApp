@@ -1,0 +1,7 @@
+<Solution>
+  <Folder Name="/Core/">
+    <Project Path="Practice.DeepuRider.Application/Practice.DeepuRider.Application.csproj" />
+    <Project Path="Practice.DeepuRider.Domain/Practice.DeepuRider.Domain.csproj" />
+  </Folder>
+  <Project Path="Practice.DeepuRider.BlazorDemoApp/Practice.DeepuRider.BlazorDemoApp.csproj" />
+</Solution>

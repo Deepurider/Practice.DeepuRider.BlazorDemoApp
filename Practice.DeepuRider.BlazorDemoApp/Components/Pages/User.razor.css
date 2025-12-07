@@ -1,0 +1,84 @@
+﻿/* Center the form on the page */
+.user-form-wrapper {
+    min-height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background: #f5f7fb;
+}
+
+/* Card container */
+.user-form-card {
+    width: 100%;
+    max-width: 420px;
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 24px 28px;
+    box-shadow: 0 12px 30px rgba(15, 23, 42, 0.12);
+    border: 1px solid rgba(148, 163, 184, 0.35);
+}
+
+/* Title */
+.user-form-title {
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-bottom: 18px;
+    text-align: center;
+    color: #111827;
+}
+
+/* Group wrapper */
+.user-form-group {
+    margin-bottom: 14px;
+}
+
+/* Label styling */
+.user-label {
+    display: block;
+    font-size: 0.9rem;
+    margin-bottom: 4px;
+    color: #4b5563;
+    font-weight: 500;
+}
+
+/* Input styling – extends Bootstrap .form-control */
+.user-input {
+    font-size: 0.95rem;
+    padding: 8px 10px;
+    border-radius: 8px;
+    border: 1px solid #d1d5db;
+    transition: border-color 0.15s ease, box-shadow 0.15s ease, background-color 0.15s ease;
+}
+
+    /* Focus state */
+    .user-input:focus {
+        border-color: #2563eb; /* blue-600 */
+        box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.2);
+        background-color: #f9fafb;
+    }
+
+/* Submit button */
+.user-submit-btn {
+    width: 100%;
+    margin-top: 10px;
+    padding: 8px 12px;
+    border-radius: 999px;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+}
+
+    /* Button hover (Bootstrap will also apply, this just enhances) */
+    .user-submit-btn:hover {
+        transform: translateY(-1px);
+        box-shadow: 0 8px 18px rgba(37, 99, 235, 0.25);
+    }
+
+/* Small screens tweaks */
+@media (max-width: 576px) {
+    .user-form-card {
+        margin: 0 12px;
+        padding: 20px 18px;
+    }
+}
